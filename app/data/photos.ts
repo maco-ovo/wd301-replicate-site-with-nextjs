@@ -13,7 +13,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Bailey Zindel",
 			username: "baileyzindel",
 			avatar:
-				"https://images.unsplash.com/profile-1533221291880-999333939634?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Nature", "Fog", "Mountain"],
 	},
@@ -28,7 +28,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Sean Oulashin",
 			username: "oulashin",
 			avatar:
-				"https://images.unsplash.com/profile-1470077790975-d95450553337?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Ocean", "Sunset", "Beach"],
 	},
@@ -43,7 +43,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Ryoji Iwata",
 			username: "ryoji__iwata",
 			avatar:
-				"https://images.unsplash.com/profile-1502941916327-024823565f41?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Architecture", "City", "Modern"],
 	},
@@ -58,7 +58,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Christopher Gower",
 			username: "cgower",
 			avatar:
-				"https://images.unsplash.com/profile-1446810874984-7a329433a093?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Tech", "Work", "Minimal"],
 	},
@@ -73,7 +73,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Aleksandar Pasaric",
 			username: "apasaric",
 			avatar:
-				"https://images.unsplash.com/profile-1493630327764-8f9611db9df8?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Street", "Night", "Neon"],
 	},
@@ -88,7 +88,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Jeremy Bishop",
 			username: "jeremybishop",
 			avatar:
-				"https://images.unsplash.com/profile-1502476569661-8ff8e3f9479b?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Desert", "Sand", "Travel"],
 	},
@@ -103,7 +103,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Nate Dumlao",
 			username: "nate_dumlao",
 			avatar:
-				"https://images.unsplash.com/profile-1495427732560-ef5248526131?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Coffee", "Cafe", "Food"],
 	},
@@ -118,7 +118,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Aaron Burden",
 			username: "aaronburden",
 			avatar:
-				"https://images.unsplash.com/profile-1505324541999-5ea8f4e24efd?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Autumn", "Road", "Forest"],
 	},
@@ -133,7 +133,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Luca Bravo",
 			username: "lucabravo",
 			avatar:
-				"https://images.unsplash.com/profile-1447094073385-d85e7d17435f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Cabin", "Lakes", "Wilderness"],
 	},
@@ -148,7 +148,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Sebastian Unrau",
 			username: "sebastian_unrau",
 			avatar:
-				"https://images.unsplash.com/profile-1446714081079-0562e873f27f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Forest", "Jungle", "Green"],
 	},
@@ -163,7 +163,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Alexander Andrews",
 			username: "alex_andrews",
 			avatar:
-				"https://images.unsplash.com/profile-1466070624898-d890471b40dc?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Photography", "Vintage", "Camera"],
 	},
@@ -178,7 +178,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Kalvis Upitis",
 			username: "kalvisupitis",
 			avatar:
-				"https://images.unsplash.com/profile-1446487569830-4e32049e6f3b?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Mountains", "Snow", "Peak"],
 	},
@@ -193,7 +193,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Jaredd Craig",
 			username: "jaredd_craig",
 			avatar:
-				"https://images.unsplash.com/profile-1464197395696-6e47d04eecfd?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Books", "Cozy", "Lifestyle"],
 	},
@@ -208,7 +208,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Jonatan Pie",
 			username: "jonatanpie",
 			avatar:
-				"https://images.unsplash.com/profile-1496180373007-920fdfbfdf1b?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Aurora", "Night", "Norway"],
 	},
@@ -223,7 +223,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Scott Webb",
 			username: "scottwebb",
 			avatar:
-				"https://images.unsplash.com/profile-1474808383842-8868662058ba?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Plants", "Shadows", "Minimal"],
 	},
@@ -238,7 +238,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Paweł Czerwiński",
 			username: "pawel_czerwinski",
 			avatar:
-				"https://images.unsplash.com/profile-1591544877078-91aee4d7708eimage?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Abstract", "Art", "Colors"],
 	},
@@ -253,7 +253,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Willian West",
 			username: "willianwest",
 			avatar:
-				"https://images.unsplash.com/profile-1502476569661-8ff8e3f9479b?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Italy", "Travel", "Coast"],
 	},
@@ -268,7 +268,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Federico Respini",
 			username: "federico_respini",
 			avatar:
-				"https://images.unsplash.com/profile-1447094073385-d85e7d17435f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Field", "Nature", "Sunset"],
 	},
@@ -283,7 +283,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Danist Soh",
 			username: "danistsoh",
 			avatar:
-				"https://images.unsplash.com/profile-1493630327764-8f9611db9df8?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Architecture", "Interior", "Spiral"],
 	},
@@ -298,7 +298,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Robert Lukeman",
 			username: "robertlukeman",
 			avatar:
-				"https://images.unsplash.com/profile-1446714081079-0562e873f27f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Waterfall", "Iceland", "Nature"],
 	},
@@ -313,7 +313,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Tom Crew",
 			username: "tomcrew",
 			avatar:
-				"https://images.unsplash.com/profile-1502941916327-024823565f41?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Craft", "Art", "Pottery"],
 	},
@@ -321,14 +321,14 @@ export const PHOTOS_DATA: Photo[] = [
 		id: "photo-22",
 		title: "Futuristic Skybridge",
 		description: "Suspended walkway connecting sleek skyscrapers.",
-		url: "https://images.unsplash.com/photo-1477959858617-67f30bc75b82?w=1200&auto=format&fit=crop&q=80",
+		url: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1200&auto=format&fit=crop&q=80",
 		aspectRatio: "landscape",
 		likes: 2400,
 		author: {
 			name: "Pedro Lastra",
 			username: "peterlaster",
 			avatar:
-				"https://images.unsplash.com/profile-1470077790975-d95450553337?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["City", "Future", "Architecture"],
 	},
@@ -343,7 +343,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Lukasz Szmigiel",
 			username: "szmigieldesign",
 			avatar:
-				"https://images.unsplash.com/profile-1446810874984-7a329433a093?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Trees", "Hiking", "Woods"],
 	},
@@ -358,7 +358,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Florian Wehde",
 			username: "florianwehde",
 			avatar:
-				"https://images.unsplash.com/profile-1505324541999-5ea8f4e24efd?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Cyberpunk", "Night", "Street"],
 	},
@@ -373,7 +373,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Stefan Rodriguez",
 			username: "stefanrodriguez",
 			avatar:
-				"https://images.unsplash.com/profile-1502476569661-8ff8e3f9479b?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Vintage", "Car", "Cuba"],
 	},
@@ -388,7 +388,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Dan Otis",
 			username: "danotis",
 			avatar:
-				"https://images.unsplash.com/profile-1466070624898-d890471b40dc?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Snow", "Winter", "Road"],
 	},
@@ -403,7 +403,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Shifaaz shamheed",
 			username: "sotti",
 			avatar:
-				"https://images.unsplash.com/profile-1464197395696-6e47d04eecfd?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Beach", "Tropical", "Island"],
 	},
@@ -418,7 +418,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Ashim D’Silva",
 			username: "ashim",
 			avatar:
-				"https://images.unsplash.com/profile-1474808383842-8868662058ba?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Canyon", "Light", "Sandstone"],
 	},
@@ -433,7 +433,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Mae Mu",
 			username: "p逸mu",
 			avatar:
-				"https://images.unsplash.com/profile-1447094073385-d85e7d17435f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Bakery", "Bread", "Food"],
 	},
@@ -448,7 +448,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Dave Hoefler",
 			username: "davehoefler",
 			avatar:
-				"https://images.unsplash.com/profile-1502476569661-8ff8e3f9479b?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Stars", "Milkyway", "Night"],
 	},
@@ -463,7 +463,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Jezael Melgoza",
 			username: "jezael",
 			avatar:
-				"https://images.unsplash.com/profile-1446714081079-0562e873f27f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Tokyo", "Crossing", "Urban"],
 	},
@@ -478,7 +478,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Kelly Sikkema",
 			username: "kellysikkema",
 			avatar:
-				"https://images.unsplash.com/profile-1591544877078-91aee4d7708eimage?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Knitting", "Warm", "Texture"],
 	},
@@ -493,7 +493,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Fabio Comparelli",
 			username: "fabio_c",
 			avatar:
-				"https://images.unsplash.com/profile-1446810874984-7a329433a093?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Glacier", "Mountains", "Stream"],
 	},
@@ -508,7 +508,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Simone Hutsch",
 			username: "simone_hutsch",
 			avatar:
-				"https://images.unsplash.com/profile-1505324541999-5ea8f4e24efd?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Minimal", "Concrete", "Architecture"],
 	},
@@ -523,7 +523,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Su San Lee",
 			username: "susan_lee",
 			avatar:
-				"https://images.unsplash.com/profile-1502476569661-8ff8e3f9479b?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Kyoto", "Japan", "Temple"],
 	},
@@ -538,7 +538,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Kseniya Lapteva",
 			username: "kseniya_lapteva",
 			avatar:
-				"https://images.unsplash.com/profile-1466070624898-d890471b40dc?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Glass", "Abstract", "Refraction"],
 	},
@@ -553,7 +553,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Annie Spratt",
 			username: "anniespratt",
 			avatar:
-				"https://images.unsplash.com/profile-1502941916327-024823565f41?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Winter", "Pines", "Snow"],
 	},
@@ -568,7 +568,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Jeremy Bishop",
 			username: "jeremybishop",
 			avatar:
-				"https://images.unsplash.com/profile-1464197395696-6e47d04eecfd?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Pier", "Ocean", "Sunset"],
 	},
@@ -583,7 +583,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Tom Crew",
 			username: "tomcrew",
 			avatar:
-				"https://images.unsplash.com/profile-1447094073385-d85e7d17435f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Ceramics", "Home", "Clay"],
 	},
@@ -598,7 +598,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Sebastian Unrau",
 			username: "sebastian_unrau",
 			avatar:
-				"https://images.unsplash.com/profile-1446714081079-0562e873f27f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Redwoods", "Forest", "Mist"],
 	},
@@ -613,7 +613,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Henrique Ferreira",
 			username: "henrique_f",
 			avatar:
-				"https://images.unsplash.com/profile-1502476569661-8ff8e3f9479b?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Venice", "Italy", "Canal"],
 	},
@@ -628,7 +628,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Ryoji Iwata",
 			username: "ryoji__iwata",
 			avatar:
-				"https://images.unsplash.com/profile-1502941916327-024823565f41?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Shadow", "Architecture", "Minimal"],
 	},
@@ -643,7 +643,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Luca Bravo",
 			username: "lucabravo",
 			avatar:
-				"https://images.unsplash.com/profile-1447094073385-d85e7d17435f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Switzerland", "Alps", "Valley"],
 	},
@@ -658,7 +658,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Nate Dumlao",
 			username: "nate_dumlao",
 			avatar:
-				"https://images.unsplash.com/profile-1495427732560-ef5248526131?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Coffee", "Barista", "Pourover"],
 	},
@@ -674,7 +674,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Annie Spratt",
 			username: "anniespratt",
 			avatar:
-				"https://images.unsplash.com/profile-1502941916327-024823565f41?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Morocco", "Tiles", "Pattern"],
 	},
@@ -689,7 +689,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Kalvis Upitis",
 			username: "kalvisupitis",
 			avatar:
-				"https://images.unsplash.com/profile-1446487569830-4e32049e6f3b?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Dolomites", "Italy", "Sunrise"],
 	},
@@ -704,7 +704,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Paweł Czerwiński",
 			username: "pawel_czerwinski",
 			avatar:
-				"https://images.unsplash.com/profile-1591544877078-91aee4d7708eimage?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Neon", "Abstract", "Design"],
 	},
@@ -719,7 +719,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Christopher Gower",
 			username: "cgower",
 			avatar:
-				"https://images.unsplash.com/profile-1446810874984-7a329433a093?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Interior", "Home", "Nordic"],
 	},
@@ -734,7 +734,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Scott Webb",
 			username: "scottwebb",
 			avatar:
-				"https://images.unsplash.com/profile-1474808383842-8868662058ba?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Bonsai", "Japan", "Zen"],
 	},
@@ -749,7 +749,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Robert Lukeman",
 			username: "robertlukeman",
 			avatar:
-				"https://images.unsplash.com/profile-1446714081079-0562e873f27f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Iceland", "BlackSand", "Coast"],
 	},
@@ -757,14 +757,14 @@ export const PHOTOS_DATA: Photo[] = [
 		id: "photo-51",
 		title: "Urban Skyline at Dusk",
 		description: "Twinkling office towers reflecting purple sunset sky.",
-		url: "https://images.unsplash.com/photo-1477959858617-67f30bc75b82?w=1200&auto=format&fit=crop&q=80",
+		url: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1200&auto=format&fit=crop&q=80",
 		aspectRatio: "landscape",
 		likes: 3100,
 		author: {
 			name: "Pedro Lastra",
 			username: "peterlaster",
 			avatar:
-				"https://images.unsplash.com/profile-1470077790975-d95450553337?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["City", "Skyline", "Dusk"],
 	},
@@ -779,7 +779,7 @@ export const PHOTOS_DATA: Photo[] = [
 			name: "Federico Respini",
 			username: "federico_respini",
 			avatar:
-				"https://images.unsplash.com/profile-1447094073385-d85e7d17435f?w=150&auto=format&fit=crop&crop=faces",
+				"https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&crop=faces",
 		},
 		tags: ["Flowers", "Spring", "Field"],
 	},

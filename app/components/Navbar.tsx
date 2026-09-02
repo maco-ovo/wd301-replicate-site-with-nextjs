@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { Search, Focus, Bell, Menu, Image as ImageIcon } from "lucide-react";
+import { Search, Focus, Image as ImageIcon } from "lucide-react";
 
 type NavbarProps = {
 	categories: string[];
@@ -27,10 +26,6 @@ export default function Navbar({ categories }: NavbarProps) {
 						Submit an image
 					</button>
 				</div>
-
-				<button className="p-2 text-neutral-600 hover:text-black md:hidden">
-					<Menu className="w-6 h-6" />
-				</button>
 			</div>
 
 			<nav className="max-w-7xl mx-auto px-4 flex items-center gap-6 overflow-x-auto scrollbar-none py-2 text-sm text-neutral-500 font-medium">
