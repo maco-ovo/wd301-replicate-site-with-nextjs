@@ -1,6 +1,9 @@
-import Image from "next/image";
-import Navbar from "./components/Navbar";
+"use client";
 
+import { useState } from "react";
+import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
+import TopCardSection from "./components/TopCardSection";
 import PhotoGrid from "./components/PhotoGrid";
 import { PHOTOS_DATA } from "./data/photos";
 
@@ -17,12 +20,24 @@ const CATEGORIES = [
 	"People",
 ];
 
-
 export default function Home() {
+	const [activeCategory, setActiveCategory] = useState("Featured");
+
 	return (
-		<main className="min-h-screen bg-white text-neutral-900">
-			<Navbar categories={CATEGORIES} />
-			<PhotoGrid photos={PHOTOS_DATA} />
-		</main>
+		<div className="min-h-screen bg-white text-neutral-900 flex">
+			<Sidebar />
+
+			{/* Main Content Area */}
+			<div className="flex-1 ml-14 sm:ml-16 min-w-0">
+				<Navbar
+					categories={CATEGORIES}
+					activeCategory={activeCategory}
+					onSelectCategory={setActiveCategory}
+				/>
+				{/* <TopCardSection category={activeCategory} /> */}
+
+				<PhotoGrid photos={PHOTOS_DATA} />
+			</div>
+		</div>
 	);
 }
