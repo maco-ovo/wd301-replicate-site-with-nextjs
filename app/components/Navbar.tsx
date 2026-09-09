@@ -2,12 +2,18 @@ import { Search, Focus, Image as ImageIcon } from "lucide-react";
 
 type NavbarProps = {
 	categories: string[];
+	activeCategory: string;
+	onSelectCategory: (category: string) => void;
 };
 
-export default function Navbar({ categories }: NavbarProps) {
+export default function Navbar({
+	categories,
+	activeCategory,
+	onSelectCategory,
+}: NavbarProps) {
 	return (
 		<header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-neutral-200">
-			<div className="max-w-7xl mx-auto px-4 h-16 flex items-center gap-4">
+			<div className="max-w-7xl mx-auto px-6 h-16 flex items-center gap-4">
 				<div className="flex-1 relative max-w-2xl">
 					<Search className="w-4 h-4 text-neutral-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
 					<input
@@ -28,18 +34,25 @@ export default function Navbar({ categories }: NavbarProps) {
 				</div>
 			</div>
 
-			<nav className="max-w-7xl mx-auto px-4 flex items-center gap-6 overflow-x-auto scrollbar-none py-2 text-sm text-neutral-500 font-medium">
-				<span className="text-black border-b-2 border-black pb-2 cursor-pointer shrink-0">
-					Featured
-				</span>
-				{categories.map((category) => (
-					<span
-						key={category}
-						className="hover:text-black pb-2 transition cursor-pointer shrink-0"
-					>
-						{category}
-					</span>
-				))}
+			{/* Categories Bar */}
+			<nav className="px-6 flex items-center gap-6 overflow-x-auto scrollbar-none text-bold text-sm font-semibold text-neutral-500">
+				{categories.map((category) => {
+					const isActive = activeCategory === category;
+					return (
+						<button
+							key={category}
+							onClick={() => onSelectCategory(category)}
+							className={`pb-3 transition relative whitespace-nowrap ${
+								isActive ? "text-black" : "hover:text-black"
+							}`}
+						>
+							{category}
+							{isActive && (
+								<span className="absolute bottom-0 left-0 right-0 h-0.5 bg-black" />
+							)}
+						</button>
+					);
+				})}
 			</nav>
 		</header>
 	);

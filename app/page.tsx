@@ -8,6 +8,7 @@ import PhotoGrid from "./components/PhotoGrid";
 import { PHOTOS_DATA } from "./data/photos";
 
 const CATEGORIES = [
+	"Featured",
 	"Wallpapers",
 	"3D Renders",
 	"Nature",
@@ -34,7 +35,7 @@ export default function Home() {
 					activeCategory={activeCategory}
 					onSelectCategory={setActiveCategory}
 				/>
-				{/* <TopCardSection category={activeCategory} /> */}
+				<TopCardSection category={activeCategory} />
 
 				<PhotoGrid photos={PHOTOS_DATA} />
 			</div>
