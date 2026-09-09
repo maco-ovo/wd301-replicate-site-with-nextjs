@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "m1-0126-wd301"
+assignment: "replicate-site-with-nextjs"
+owner:
+  username: "maco-ovo"
+  id: 229838621
+  accepted_at: "2026-09-09T01:01:39Z"
+source:
+  owner: "Cornerstone-CICCC"
+  owner_id: 113148113
+  repo: "wd301-replicate-site-with-nextjs"
+  branch: "main"
