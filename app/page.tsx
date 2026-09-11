@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Sidebar from "./components/Sidebar";
+
 import Navbar from "./components/Navbar";
 import TopCardSection from "./components/TopCardSection";
 import PhotoGrid from "./components/PhotoGrid";
@@ -26,7 +26,7 @@ export default function Home() {
 
 	return (
 		<div className="min-h-screen bg-white text-neutral-900 flex">
-			<Sidebar />
+			
 
 			{/* Main Content Area */}
 			<div className="flex-1 ml-14 sm:ml-16 min-w-0">
