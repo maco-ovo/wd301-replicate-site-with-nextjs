@@ -1,4 +1,4 @@
-import { Search, Focus, Image as ImageIcon } from "lucide-react";
+import Searchbar from "./Searchbar";
 
 type NavbarProps = {
 	categories: string[];
@@ -12,9 +12,8 @@ export default function Navbar({
 	onSelectCategory,
 }: NavbarProps) {
 	return (
-		<header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-neutral-200">
-
-			{/* Categories Bar */}
+		<header className="sticky top-0 z-30 bg-white border-b border-neutral-200">
+			<Searchbar />
 			<nav className="px-12 flex items-center gap-6 overflow-x-auto scrollbar-none text-bold text-sm font-semibold text-neutral-500">
 				{categories.map((category) => {
 					const isActive = activeCategory === category;

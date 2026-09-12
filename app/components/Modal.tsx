@@ -21,7 +21,7 @@ export default function Modal({ children }: { children: ReactNode }) {
 	return (
 		<dialog
 			ref={dialogRef}
-			className="m-0 h-screen w-screen max-w-none bg-black/60 backdrop-blur-sm flex items-center justify-center p-0 sm:p-4 md:p-12 z-50 fixed inset-0"
+			className="m-0 h-screen w-screen max-w-none max-h-max bg-black/50 backdrop-blur-sm flex items-center justify-center p-0 sm:p-4 md:p-12 z-50 fixed inset-0"
 			onClose={onDismiss}
 			onClick={(e) => {
 				if (e.target === dialogRef.current) {

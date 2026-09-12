@@ -19,10 +19,8 @@ export default function RootLayout({
 		<html lang="en">
 			<body className="antialiased">
 				<Sidebar />
-				<div>
-					<Searchbar />
-					{children}
-				</div>
+				{children}
+
 				{modal}
 			</body>
 		</html>

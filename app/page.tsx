@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import Navbar from "./components/Navbar";
+import Searchbar from "./components/Searchbar";
 import TopCardSection from "./components/TopCardSection";
 import PhotoGrid from "./components/PhotoGrid";
 import { PHOTOS_DATA } from "./data/photos";
@@ -26,8 +27,6 @@ export default function Home() {
 
 	return (
 		<div className="min-h-screen bg-white text-neutral-900 flex">
-			
-
 			{/* Main Content Area */}
 			<div className="flex-1 ml-14 sm:ml-16 min-w-0">
 				<Navbar

@@ -2,7 +2,7 @@ import { Search, Focus } from "lucide-react";
 
 export default function Searchbar() {
 	return (
-		<div className="ml-15 max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
+		<div className="bg-white max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
 			<div className="flex-1 relative max-w-3xl">
 				<Search className="w-4 h-4 text-neutral-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
 				<input
