@@ -2,11 +2,9 @@
 import { PHOTOS_DATA } from "../../data/photos";
 import PhotoDetail from "../../components/PhotoDetail";
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { Bookmark, PenTool, Plus, Download } from "lucide-react";
 import Searchbar from "@/app/components/Searchbar";
 import Image from "next/image";
-import { Photo } from "../../types/photo";
 
 export default async function PhotoPage({
 	params,

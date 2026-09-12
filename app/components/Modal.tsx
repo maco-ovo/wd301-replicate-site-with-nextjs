@@ -21,22 +21,22 @@ export default function Modal({ children }: { children: ReactNode }) {
 	return (
 		<dialog
 			ref={dialogRef}
-			className="m-0 h-screen w-screen max-w-none max-h-max bg-black/50 backdrop-blur-sm flex items-center justify-center p-0 sm:p-4 md:p-12 z-50 fixed inset-0"
+			className="m-0 h-screen w-screen max-w-none max-h-none bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 md:p-12 z-50 fixed inset-0"
 			onClose={onDismiss}
 			onClick={(e) => {
-				if (e.target === dialogRef.current) {
-					onDismiss();
-				}
+				if (e.target === dialogRef.current) onDismiss();
 			}}
 		>
-			<div className="relative w-full max-w-5xl max-h-full flex flex-col animate-in fade-in zoom-in-95 duration-200">
-				<button
-					onClick={onDismiss}
-					className="absolute -top-12 right-0 sm:-right-12 sm:top-0 z-50 p-2 text-white/70 hover:text-white transition"
-					aria-label="Close modal"
-				>
-					<X className="w-6 h-6 sm:w-8 sm:h-8" />
-				</button>
+			<button
+				onClick={onDismiss}
+				className="absolute top-4 left-4 z-50 p-2 text-white/60 hover:text-white transition"
+				aria-label="Close modal"
+			>
+				<X className="w-8 h-8" />
+			</button>
+
+			{/* Modal*/}
+			<div className="m-4 relative w-full max-w-6xl max-h-[95vh] bg-white rounded-xl flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-200 shadow-2xl">
 				{children}
 			</div>
 		</dialog>
