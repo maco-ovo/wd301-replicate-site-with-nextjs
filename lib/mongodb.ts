@@ -1,7 +1,6 @@
-import { MongoClient, ObjectId } from "mongodb";
+import { MongoClient } from "mongodb";
 
 export type User = {
-	name: string;
 	email: string;
 };
 
@@ -9,6 +8,5 @@ const client = new MongoClient(process.env.MONGODB_URI!);
 
 const db = client.db();
 
-export const users = db.collection("users");
+export const users = db.collection("email");
 
-console.log(users.find())

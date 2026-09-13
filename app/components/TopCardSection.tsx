@@ -50,6 +50,8 @@ export default function TopCardSection({ category }: TopCardSectionProps) {
 							src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&auto=format&fit=crop&q=80"
 							alt="Crop preview"
 							fill
+							priority
+							sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
 							className="object-cover"
 						/>
 					</div>

@@ -3,10 +3,10 @@
 import { useState } from "react";
 
 import Navbar from "./components/Navbar";
-import Searchbar from "./components/Searchbar";
 import TopCardSection from "./components/TopCardSection";
 import PhotoGrid from "./components/PhotoGrid";
 import { PHOTOS_DATA } from "./data/photos";
+import Newsletter from "./components/Newsletter";
 
 const CATEGORIES = [
 	"Featured",
@@ -37,6 +37,8 @@ export default function Home() {
 				<TopCardSection category={activeCategory} />
 
 				<PhotoGrid photos={PHOTOS_DATA} />
+
+				<Newsletter />
 			</div>
 		</div>
 	);
