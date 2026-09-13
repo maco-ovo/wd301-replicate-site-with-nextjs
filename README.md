@@ -20,25 +20,25 @@ The goal of this assignment is to **replicate the website linked below** as a **
 ## Setup Instructions
 
 **1. Clone the repository**
-\`\`\`bash
+```bash
 git clone <your-repo-url>
 cd replicate-site-with-nextjs
-\`\`\`
+```
 
 **2. Install dependencies**
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 **3. Set up Environment Variables**
 Create a `.env` file in the root directory and add your keys:
-\`\`\`env
+```env
 MONGODB_URI=your_mongodb_connection_string
 WEB3FORMS_ACCESS_KEY=your_web3forms_access_key
-\`\`\`
+```
 
 **4. Run the development server**
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 Open [https://wd301-replicate-site-with-nextjs.vercel.app/](https://wd301-replicate-site-with-nextjs.vercel.app/) with your browser to see the result.
