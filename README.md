@@ -41,4 +41,4 @@ WEB3FORMS_ACCESS_KEY=your_web3forms_access_key
 \`\`\`bash
 npm run dev
 \`\`\`
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://wd301-replicate-site-with-nextjs.vercel.app/](https://wd301-replicate-site-with-nextjs.vercel.app/) with your browser to see the result.
